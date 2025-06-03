@@ -1,3 +1,3 @@
-# 한 번 커밋된 파일은 그 즉시 ignore처리 되지 않음
+# 한 번 커밋된 파일은 그 즉시 ignore처리 되지 않음 rm -r --cached .    <-으로 올라간 것 제거하면 ignore 되기 시작함
 testfolder/important_config.yml
 test.txt
