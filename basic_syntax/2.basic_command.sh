@@ -40,3 +40,9 @@ git diff 커밋ID 커밋ID
 git diff 브랜치명1, 브랜치명2
 
 # 커밋 취소
+# 가장 최신의 커밋 취소
+git reset head~1
+git reset head^
+
+# 이미 push된 커밋 사항 되돌리는 커밋ID 생성
+git revert commitID
