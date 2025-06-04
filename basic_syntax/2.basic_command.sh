@@ -15,8 +15,28 @@ git commit
 # commit 이력 확인
 git log
 git log --oneline
+# HEAD 하단의 로그만 보이는 것이 아니라 모든 commit이력을 조회
+# HEAD : 현재 checkout 하고 있는 commitID를 의미
+git log --all 
 
 # 원격저장소로 업로드
 git push origin 브랜치명
 # 충돌발생시 충돌무시하고, 로컬기준으로 원격에 덮어쓰기
 git push origin 브랜치명 --force
+
+# HEAD 전환
+# 특정 commit ID로 전환
+git checkout commitID
+# 특정 브랜치명으로 전환
+git checkout 브랜치명
+
+# pull : 원격의 변경사항을 local로 내려받는 것(fetch + merge)
+git pull origin 브랜치명
+# fetch : 변경사항을 로컬로 가져오지만 병합은 하지않음, 모든 브랜치의 변경사항을 가져오고 싶으면 --all
+git fetch origin/main
+git fetch -all
+# 차이 비교, 근데 UI가 편하긴 함
+git diff 커밋ID 커밋ID
+git diff 브랜치명1, 브랜치명2
+
+# 커밋 취소
