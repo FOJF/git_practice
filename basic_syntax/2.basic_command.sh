@@ -63,3 +63,7 @@ git tag 태그버전명(v1.1)
 git push origin 태그버전명
 # tag 목록 조회
 git tag
+
+# 브랜치 생성
+# 현재 checkout 되어있는 브랜치를 기준으로 새로운 브랜치 생성
+git branch 브랜치명
