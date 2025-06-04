@@ -9,4 +9,4 @@ git add testfolder/test1.txt
 # commit을 통해 메세지 타이틀과 메세지 내용을 커밋이력으로 생성
 git commit -m "메세지 제목" -m "메세지 내용"
 
-# git commit만 입력하고 엔터시 vi모드 -> 첫 줄 : 타이틀, 두번째줄부터 : 내용
+# git commit만 입력하고 엔터시 vi모드 -> 첫 줄 : 타이틀, 두번째줄부터 : 내용 
