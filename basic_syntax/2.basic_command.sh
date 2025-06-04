@@ -67,3 +67,5 @@ git tag
 # 브랜치 생성
 # 현재 checkout 되어있는 브랜치를 기준으로 새로운 브랜치 생성
 git branch 브랜치명
+
+# 새로운 작업시작시에, main을 최신화 한 후에 main을 기준으로 branch 생성
